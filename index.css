@@ -48,7 +48,8 @@ header {
 
 .nav-links {
   color: #336666;
-  padding: 3.2vh 35px;
+  padding: 3.2vh 25px;
+  margin: 0 10px;
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -86,7 +87,7 @@ header {
 
 .image-home-one {
   margin-top: 100px;
-  animation: ftop 1.5s forwards;
+  animation: ftop 1.5s ease-in forwards;
   transition: 1.5s;
 }
 
@@ -97,7 +98,7 @@ header {
 
 .image-home-two {
   margin-bottom: 100px;
-  animation: fbottom 1.5s forwards;
+  animation: fbottom 1.5s ease-in forwards;
   transition: 1.5s;
 }
 
@@ -108,7 +109,7 @@ header {
 
 .image-home-three {
   margin-top: 100px;
-  animation: ftop 1.5s forwards;
+  animation: ftop 1.5s ease-in forwards;
   transition: 1.5s;
 }
 
@@ -119,7 +120,7 @@ header {
 
 .image-home-four {
   margin-bottom: 100px;
-  animation: fbottom 1.5s forwards;
+  animation: fbottom 1.5s ease-in forwards;
   transition: 1.5s;
 }
 
@@ -133,13 +134,13 @@ header {
     margin-top: 100px;
   } 
   100% {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 }
 
 @keyframes topreverse {
   0% {
-    margin-top: 70px;
+    margin-top: 60px;
   } 
   100% {
     margin-top: 100px;
@@ -151,13 +152,13 @@ header {
     margin-bottom: 100px;
   } 
   100% {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 }
 
 @keyframes bottomreverse {
   0% {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   } 
   100% {
     margin-bottom: 100px;

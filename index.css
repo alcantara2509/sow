@@ -48,7 +48,7 @@ header {
 
 .nav-links {
   color: #336666;
-  padding: 22px 30px 22px 30px;
+  padding: 3.2vh 35px;
   font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
@@ -86,45 +86,49 @@ header {
 
 .image-home-one {
   margin-top: 100px;
-  animation: top 1.5s forwards;
+  animation: ftop 1.5s forwards;
   transition: 1.5s;
 }
 
 .image-home-one:hover {
-  opacity: 0.5;
+  filter: grayscale(100%);
+  animation: topreverse 1s;
 }
 
 .image-home-two {
   margin-bottom: 100px;
-  animation: bottom 1.5s forwards;
+  animation: fbottom 1.5s forwards;
   transition: 1.5s;
 }
 
 .image-home-two:hover {
-  opacity: 0.5;
+  filter: grayscale(100%);
+  animation: bottomreverse 1s;
 }
 
 .image-home-three {
   margin-top: 100px;
-  animation: top 1.5s forwards;
+  animation: ftop 1.5s forwards;
   transition: 1.5s;
 }
 
 .image-home-three:hover {
-  opacity: 0.5;
+  filter: grayscale(100%);
+  animation: topreverse 1s;
 }
 
 .image-home-four {
   margin-bottom: 100px;
-  animation: bottom 1.5s forwards;
+  animation: fbottom 1.5s forwards;
   transition: 1.5s;
 }
 
 .image-home-four:hover {
-  opacity: 0.5;
+  filter: grayscale(100%);
+  animation: bottomreverse 1s;
 }
 
-@keyframes top {
+@keyframes ftop {
   0% {
     margin-top: 100px;
   } 
@@ -133,12 +137,30 @@ header {
   }
 }
 
-@keyframes bottom {
+@keyframes topreverse {
+  0% {
+    margin-top: 70px;
+  } 
+  100% {
+    margin-top: 100px;
+  }
+}
+
+@keyframes fbottom {
   0% {
     margin-bottom: 100px;
   } 
   100% {
     margin-bottom: 70px;
+  }
+}
+
+@keyframes bottomreverse {
+  0% {
+    margin-bottom: 70px;
+  } 
+  100% {
+    margin-bottom: 100px;
   }
 }
 

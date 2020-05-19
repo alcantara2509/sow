@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid tomato; */
+}
+
+html, body {
+	width: 100%;
+	height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #336666;
+  font-size: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.h1-white {
+  color: white;
+}
+
+p {
+  color: #336666;
+  font-size: 15px;
+  font-weight: 400;
+  text-align-last: justify;
+}
+
+.p-white {
+  color: white;
+  text-align-last: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  align-items: center;
+  background-color: #ececec;
+  box-shadow: 0 -11px 28px 0 #1e1e1e;
+  display: flex;
+  height: 9vh;
+}
+
+.top-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.ul-nav {
+  display: flex;
+}
+
+.nav-links {
+  color: #336666;
+  padding: 3.2vh 25px;
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav-links:hover {
+  color: #002c38;
+}
+
+#link-selected {
+  background-color: #336666; 
+  color: white; 
+  font-size: 15px;
+  font-weight: 800; 
+}
+
+.container-contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 87vh;
+  margin: auto;
+}
+
+footer {
+  align-items: flex-end;
+  background-color: #002c38;
+  display: flex;
+  justify-content: center;
+  height: 4vh;
+}
+
+.foot {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85%;
+}
+
+#p-footer {
+  color: white; 
+  font-size: 15px; 
+  font-weight: 400; 
+  margin-top: 44px;
+}
+
+.wpp-icon {
+  background-color: #cddfd8;
+  padding: 8px 8px 26px 8px;
+}
+
+.icons-about {
+  width: 35px;
+}
+
+input {
+  border: 3px solid #336666;
+  background-color: #336666;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  padding: 4px 10px;
+  margin-top: 20px;
+}
